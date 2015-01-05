@@ -19,40 +19,6 @@ Modify the defaults stanza within the terminator configuration file to select yo
 
     # vi ~/.config/terminator/config
 
-To configure the default scheme used for new windows/tabs to solarized-light; change:
-
-    [[default]]
-    # solarized-dark
-    #palette = "#073642:#d30102:#859900:#b58900:#6c71c4:#d33682:#2aa198:#839496:#586e75:#cb4b16:#859900:#b58900:#268bd2:#d33682:#2aa198:#93a1a1"
-    #background_color = "#eee8d5"
-    #cursor_color = "#002b36"
-    #foreground_color = "#002b36"
-
-To:
-
-    [[default]]
-    # solarized-dark
-    palette = "#073642:#d30102:#859900:#b58900:#6c71c4:#d33682:#2aa198:#839496:#586e75:#cb4b16:#859900:#b58900:#268bd2:#d33682:#2aa198:#93a1a1"
-    background_color = "#eee8d5"
-    cursor_color = "#002b36"
-    foreground_color = "#002b36"
-
-To configure the default scheme used upon launch; change:
-
-    [[default]]
-      [[[child1]]]
-        type = Terminal
-        parent = window0
-        profile = default
-
-To: 
-
-    [[default]]
-      [[[child1]]]
-        type = Terminal
-        parent = window0
-        profile = solarized-light
-
 ## Screenshots
 
 ![solarized terminator](https://github.com/ghuntley/terminator-solarized/raw/master/screenshots/terminator-solarized.png)
